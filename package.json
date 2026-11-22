@@ -1,0 +1,7 @@
+{
+  "name": "party-game-trivia",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node test.js" }
+}

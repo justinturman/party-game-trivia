@@ -1,0 +1,19 @@
+body { margin: 0; padding: 1rem; font-family: sans-serif; text-align: center;
+       background: #1e1e2f; color: #fff; }
+button { font-size: 1.2rem; padding: 0.6rem 1.2rem; }
+.qtext { font-size: 1.6rem; max-width: 760px; margin: 1rem auto; }
+.options { display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+           max-width: 760px; margin: 1rem auto; }
+.opt { background: #33334d; color: #fff; border: 2px solid transparent;
+       border-radius: 10px; padding: 0.9rem; font-size: 1.2rem; text-align: left; }
+button.opt:not(:disabled):hover { background: #4a4a73; }
+.opt.right { background: #1b5e20; border-color: #66bb6a; }
+.opt.wrong { background: #7f1d1d; border-color: #ef5350; }
+.good { color: #81c784; }
+.bad { color: #ef9a9a; }
+ul.scoreboard { list-style: none; padding: 0; max-width: 360px; margin: 1rem auto; }
+ul.scoreboard li { display: flex; justify-content: space-between; padding: 0.4rem 0.8rem;
+                   background: #33334d; border-radius: 8px; margin: 4px 0; }
+ul.scoreboard li.turn { outline: 3px solid #8ab4ff; }
+.credit { font-size: 0.8rem; opacity: 0.7; }
+@media (max-width: 520px) { .options { grid-template-columns: 1fr; } }
