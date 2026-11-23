@@ -4,6 +4,6 @@
   "category": "Quiz",
   "description": "Take turns answering multiple-choice questions. Harder questions are worth more points.",
   "summary": "Each player takes turns answering a question with four options. Easy questions are worth 1 point, medium 2, and hard 3. After everyone has had three questions, the highest score wins. Questions come from the Open Trivia Database (CC BY-SA 4.0), with a built-in backup set. The correct answer stays on the server until it has been answered.",
-  "thumbnail": "thumbnail.svg",
+  "thumbnail": "thumbnail.jpg",
   "color": "#4a2a7a"
 }
